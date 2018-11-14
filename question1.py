@@ -239,7 +239,7 @@ def plot_series(df1,df2):
     plt.legend((column_name1, column_name2),
     loc='upper right')
     plt.show()
-    fig.savefig('plot.png')
+    fig.savefig('question1_plot.png')
 def all_functions(df) :
     YTD(df)
     Total_Net_return(df)
